@@ -71,7 +71,7 @@ public class SimuladorTarifa
         // Tarifa minima y redondeo
         tarifaFinal = Math.Max(subtotal, 5.00);
         tarifaFinal = Math.Round(tarifaFinal, 2);
-        // Salida - Resumen del Viaje
+        // Salida - Resumen del viaje
         Console.WriteLine("\n===============================================");
         Console.WriteLine("         RESUMEN DEL VIAJE");
         Console.WriteLine("===============================================");
